@@ -1,0 +1,39 @@
+Crystals Pseudo Code:
+
+1.	Create an integer variable for wins, set it to zero, display it on screen, and log it.
+
+2.	Create an integer variable for losses, set it to zero, display it on screen, and log it.
+
+3.	Create an integer variable for random number, set it to random number between 19 and 120, display it on screen, and log it.
+
+4.	Create an integer variables for crystals 1-4, set them to random numbers from 1-12, and log them.
+
+5.	Create an integer variable for total score, set it to zero, display it on screen, and log it.
+
+6.	When a user clicks on a crystal link (1-4)
+
+		Add the random score associated with crystal to total score.
+
+		If total score > then random integer variable from step 3
+
+			The user loses
+
+			Add 1 to losses
+			
+			Log it
+
+			Restart the game from step 3
+
+		else if total score = random integer variable from step 3
+
+			The user wins
+
+			Add 1 to wins
+
+			Log it
+
+			Restart the game from step 3
+
+		else	continue waiting for user to click another crystal (step 6)
+
+			
