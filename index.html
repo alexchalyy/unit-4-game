@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- Crystals game html file.
 
      Rules of the game:
@@ -8,7 +9,7 @@
 
      2. Computer guesses a random number between 19 and 120 and displays it. 
 
-     3. Each crystal image on the screen is assigned a random integer between 1-12 (they are not displayed).
+     3. Each of the 4 crystal images on the screen is assigned a random integer between 1-12 (they are not displayed).
 
      4. Total score integer is set to zero and displayed on screen.
 
@@ -22,7 +23,7 @@
 
      Written by Alex Chalyy on 2/16/2019.   -->
 
-<!-- The head links to bootstrap css sheet.-->
+<!-- The head links to bootstrap, reset, and unique css sheets.-->
 
 <head>
     <meta charset="UTF-8">
@@ -37,5 +38,24 @@
 <!--    Contains the game box. -->
 
 <body>
-    <h1>hello</h1>
+    <div class="container" id="c1">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Crystal Collector</h1>
+                        <p id="p1">You will be given a random number at the start of the game. There are 4 crystals below. By clicking on a crysgtal you will add a specific amount of points to your total score. you win the game matching your total score to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the value of each crystal.</p>
+                        <p id="random">Random number: </p>
+                        <p id="wins">Wins:  </p>
+                        <p id="losses">Losses:  </p>
+                        <p id="score">Total Score: </p> 
+                        <a href="#"><img src="assets/images/amethyst-292x300.jpg" alt="image cannot be displayed" id="a"></a>
+                        <a href="#"><img src="assets/images/citrine-269x300.jpg" alt="image cannot be displayed" id="c"></a>
+                        <a href="#"><img src="assets/images/clear-quartz-300x284.jpg" alt="image cannot be displayed" id="q"></a>
+                        <a href="#"><img src="assets/images/shungite-271x300.jpg" alt="image cannot be displayed" id="s"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
