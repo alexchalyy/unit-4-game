@@ -16,7 +16,7 @@
 
         *   If score is the same as the number from step 1, the user wins, the win score is appended by 1, displayed on the screen, and another round of game starts from step 2.
 
-        *   If score is greater than the number from step 2, the user loses, teh loss score is appended by 1, displayed on the screen, and    anohter round of game starts from step 2.
+        *   If score is greater than the number from step 2, the user loses, teh loss score is appended by 1, displayed on the screen, and another round of game starts from step 2.
 
 # Game creation process
 
