@@ -20,6 +20,7 @@
         $("#wins").html("Wins: " + wins);
         $("#losses").html("Losses: " + losses);
         $("#random").html("Random number: " + random);
+        $("#score").html("Total Score: 0");
         console.log("Wins: " + wins);
         console.log("Losses: " + losses);
         console.log("Computer generated random number: " + random);
@@ -44,6 +45,9 @@
             console.log("You lost:(");
             losses++;
             new_round();
+        }
+        else    {
+            $("#score").html("Total Score: " + score);
         }
     }
 
