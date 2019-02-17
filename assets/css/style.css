@@ -13,10 +13,10 @@
 
 /*  This styles the crystal links. */
 
-#a,
-#c,
-#q,
-#s  {
+#amethyst,
+#citrine,
+#quartz,
+#shungite  {
     float: center;
     width: 15%;
 }
@@ -24,7 +24,7 @@
 /*  Media query for small screens, reduces the size of the card.    */
 
 @media only screen and (max-height: 414px) {
-    
+
     #c1,
     .card-title {
         font-size: 10%;
